@@ -1,0 +1,49 @@
+.track-list-item {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 110px;
+  margin-bottom: 20px;
+}
+.track-list-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.track-list-info img {
+  height: 100px;
+}
+.track-list-info .title-and-genre {
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.title-and-genre .title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.title-and-genre .genre {
+  color: #3b82f6;
+  font-weight: 500;
+}
+
+.track-list-duration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.track-list-duration .duration {
+  font-size: 16px;
+  font-weight: 400;
+}
+.track-list-duration .button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: #fff;
+}
